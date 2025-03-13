@@ -6,3 +6,10 @@ langchain_text_splitters==0.3.6
 PyPDF2==3.0.1
 streamlit==1.43.1
 chromadb
+unstructured[all-doc]
+pdfminer.six
+pi_heif
+unstructured_inference
+pdf2image
+torch
+unstructured_pytesseract

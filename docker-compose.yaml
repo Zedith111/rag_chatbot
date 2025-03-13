@@ -14,7 +14,7 @@ services:
               capabilities: [gpu]
     entrypoint: /bin/sh
     command: >
-      -c "ollama serve & sleep 5 && ollama pull llama3.2 && ollama pull nomic-embed-text && wait"
+      -c "ollama serve & sleep 5 && ollama pull llama3.2 && ollama pull nomic-embed-text && ollama pull llama3.2-vision && wait"
 
   app:
     build:
